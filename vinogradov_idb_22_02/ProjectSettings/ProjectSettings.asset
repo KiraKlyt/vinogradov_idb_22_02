@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 4fea6285350a2ff41989142392a4f54e
+  productGUID: 2b20899f766cdb544827eb906ca8388d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -748,10 +748,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 033b6996-8724-4c1f-bb2d-d1e4e7bc5a4c
+  cloudProjectId: 188d3f6c-0f8d-4ea2-b35e-e6c05791406d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: vinogradov_idb_22_02
+  projectName: vinogradov_idb_22_02 (1)
   organizationId: kirakly
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
