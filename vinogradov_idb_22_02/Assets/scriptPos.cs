@@ -16,22 +16,22 @@ public class scriptPos : MonoBehaviour
     void Start()
     {
         CUB.transform.position = new Vector3(3, 2, 1);
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+       
 
 
     }
     public void button_click()
     {
-
+    
         gm = !gm;
         CUB.SetActive(gm);
-
+  
     }
     public void button_click2()
     {

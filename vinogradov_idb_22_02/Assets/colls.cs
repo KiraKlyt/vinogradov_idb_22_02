@@ -1,17 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class colls : MonoBehaviour
 {
+    // Start is called before the first frame update
     public Text label;
-    public int count = 10000;
-    public int gamColl = 1;
- 
+    int gameCount = 0;
     void Start()
     {
         
+    }
+    public void OnCollisionEnter(Collision collision)
+    {
+  
+        label.text = (gameCount).ToString();
+        print(collision.collider.name);
+        gameCount++;
+  
     }
 
     // Update is called once per frame
@@ -19,11 +26,4 @@ public class colls : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        label.text = (gamColl).ToString();
-        gamColl += 1;
-        print(collision.collider.name);
-    }
-  
 }
